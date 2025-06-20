@@ -1,0 +1,128 @@
+CMPT 353 - Computational Data Science (Exercise 5)
+Author: Dayric Vallescas (301453237)
+
+###################################################
+              Dataset 1 (data-1.csv)
+###################################################
+
+====================== mean =======================
+The mean across the x-axis is: 8.71769618641382
+The mean across the y-axis is: 12.522874034702584
+====================== std ========================
+The std across the x-axis is: 12.155517231222024
+The std across the y-axis is: 6.63996400756785
+====================== min ========================
+The min across the x-axis is: -22.635877790008944
+The min across the y-axis is: -2.565087832693213
+====================== max ========================
+The max across the x-axis is: 35.23705548785129
+The max across the y-axis is: 27.38415261152477
+====================== cc =========================
+The correlation coefficient is: 0.9503256954375489
+
+Visually, dataset 1 seems to follow a linear structure, has a positive slope, and no evident outliers. 
+
+###################################################
+              Dataset 2 (data-2.csv)
+###################################################
+
+====================== mean =======================
+The mean across the x-axis is: -0.7107871267159572
+The mean across the y-axis is: -0.7489869764497991
+====================== std ========================
+The std across the x-axis is: 11.481583587790734
+The std across the y-axis is: 6.257917998755848
+====================== min ========================
+The min across the x-axis is: -33.2711130771198
+The min across the y-axis is: -18.621803760419063
+====================== max ========================
+The max across the x-axis is: 27.6470003722073
+The max across the y-axis is: 14.14731499231748
+====================== cc =========================
+The correlation coefficient is: 0.9551531665750373
+
+Visually, dataset 2 seems to follow a linear structure, has a positive slope, and contains 90% of the points within x ∈ [-25, 20] and y ∈ [-13, 8], with some outliers in the extremities.
+
+###################################################
+              Dataset 3 (data-3.csv)
+###################################################
+
+====================== mean =======================
+The mean across the x-axis is: 0.9689074904200939
+The mean across the y-axis is: 8.508535236641327
+====================== std ========================
+The std across the x-axis is: 2.23555786105797
+The std across the y-axis is: 1.1493008110024527
+====================== min ========================
+The min across the x-axis is: -2.4490643296742807
+The min across the y-axis is: 6.641734490391763
+====================== max ========================
+The max across the x-axis is: 4.51888491755363
+The max across the y-axis is: 10.551871022804317
+====================== cc =========================
+The correlation coefficient is: 0.9819372646760661
+
+Visually, dataset 3 is split into 4 major clusters trending linearly with a positive slope. 
+
+###################################################
+              Dataset 4 (data-4.csv)
+###################################################
+
+====================== mean =======================
+The mean across the x-axis is: 49.90508614830509
+The mean across the y-axis is: 18.553836525423726
+====================== std ========================
+The std across the x-axis is: 28.508610519881927
+The std across the y-axis is: 16.545896442941686
+====================== min ========================
+The min across the x-axis is: 0.0
+The min across the y-axis is: 0.0
+====================== max ========================
+The max across the x-axis is: 87.3767
+The max across the y-axis is: 44.56504
+====================== cc =========================
+The correlation coefficient is: -0.08119306735490815
+
+Visually, dataset 4 is a rectangle with the letters "SFU" in the bottom-right corner.
+
+###################################################
+              Dataset 5 (data-5.csv)
+###################################################
+
+====================== mean =======================
+The mean across the x-axis is: 49.90999357843095
+The mean across the y-axis is: 18.555524937729086
+====================== std ========================
+The std across the x-axis is: 28.500000943801364
+The std across the y-axis is: 16.540796301840782
+====================== min ========================
+The min across the x-axis is: 4.337892453674525
+The min across the y-axis is: 0.0554975075811517
+====================== max ========================
+The max across the x-axis is: 91.0528633396976
+The max across the y-axis is: 49.93419703633311
+====================== cc =========================
+The correlation coefficient is: -0.08823598983058888
+
+Visually, dataset 5 has 5 vertical lines somewhat equally spaced from one another, with most of the points grouped near the extremities of each line (gaps in the middle of the vertical lines).
+
+###################################################
+              Dataset 6 (data-6.csv)
+###################################################
+
+====================== mean =======================
+The mean across the x-axis is: 7.21615517960992
+The mean across the y-axis is: 7.602215028237295
+====================== std ========================
+The std across the x-axis is: 11.921599067458313
+The std across the y-axis is: 11.764382455006647
+====================== min ========================
+The min across the x-axis is: -24.33382075234097
+The min across the y-axis is: -22.9563569970746
+====================== max ========================
+The max across the x-axis is: 35.402138910929
+The max across the y-axis is: 36.07987403078143
+====================== cc =========================
+The correlation coefficient is: 0.9350685662094907
+
+Visually, dataset 6 is linear with a positive slope, with 2 outliers occurring around x ∈ [22, 25], y ∈ [-9, -5].
