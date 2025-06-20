@@ -3,8 +3,22 @@ Author: Dayric Vallescas (301453237)
 
 1. Which of the four transforms suggested got you the closest to satisfying the assumptions of a T-test?
 
+The transform that got me closest to satisfying the assumptions of a T-test was the square root transform. The values that I got were 0.0369 and 0.108 for the normality p-values, and 0.556 for the levene (equal variance) test p-value. Since two of these p-values are > 0.05, we don't have to reject the two, only the one that had a p-value that was p < 0.05. 
+
 2. I gave imprecise English translations of what the by-week test, and the Mann-Whitney test were actually testing. Do the same for the original T-test, and for the transformed data T-test. That is, describe what the conclusion would be if you could reject the null hypothesis in those tests.
+
+The "imprecise English translation" for the original T-test is: "In r/canada, is the average number of comment counts on weekdays equal to the average number of comment counts on weekends?". If we reject the null hypothesis, this means that the average number of comments on weekdays is not the same as on weekends.
+
+The "imprecise English translation" for the transformed T-test is similar: "In r/canada, is the average number of the square rooted comment count on weekdays equal to the average number of square rooted comment count on weekends?". Likewise, rejecting this null hypothesis indicates that these means are unequal.
 
 3. Of the four approaches, which do you think actually does a better job of getting an answer for the original question: “are there a different number of Reddit comments posted on weekdays than on weekends?” Briefly explain why. (It's not clear to me that there is a single correct answer to this question.)
 
+Of the four approaches, I believe that the Central Limit Theorem (CLT) approach did the best job of getting an answer to our original question. In the CLT case, we were essentially asking “do the number of comments on weekends and weekdays for each week differ?", which is closely related to the original question, but just using data that is grouped a little differently. Grouping the data by week does not really have a big effect on our question since we are only considering weekdays vs weekends. Changing the week does not change the number of weekends/weekdays in a year; it remains the same. Therefore, I think that using the CLT approach is the best one in this scenario.
+
 4. When are more Reddit comments posted in /r/canada, on average weekdays or weekends?
+
+I calculated the mean of the weekday and weekend counts:
+--> The average comment count in r/canada on weekdays is 1823.5785440613026.
+--> The average comment count in r/canada on weekends is 1269.5071770334928.
+
+Based on the results above, on average, there are more reddit comments posted in r/canada on weekdays.  
